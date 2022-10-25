@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+                <title>
+                </title>
+                
+            </meta>
+        </meta>
+        <link rel="stylesheet" type="text/css" href="style30.css">
+    
+        <script type="text/javascript">
+            function Résultat()
+            {
+		
+	    var a = document.getElementById("t2").value;
+        var b = document.getElementById("t3").value;
+        var c = Number (a)* Number (b);
+        document.getElementById("t4").value = c;
+        
+
+         var d = document.getElementById("t6").value;
+        var e = document.getElementById("t7").value;
+        var f = Number (d)* Number (e);
+        document.getElementById("t8").value = f;
+
+
+        var g = document.getElementById("t10").value;
+        var h = document.getElementById("t11").value;
+        var i = Number (g)* Number (h);
+        document.getElementById("t12").value = i;
+         
+        var c = document.getElementById("t4").value;
+        var f = document.getElementById("t8").value;
+        var i = document.getElementById("t12").value;
+        var l = Number (c) + Number (f) + Number (i)
+                document.getElementById("t14").value = l;
+        }
+
+
+    </script>
+    </head>
+    <body>
+    	<h1>
+                    Facture en Javascript
+                </h1>
+        <table border="4">
+            <tr>
+                <td>
+                    Article:
+                </td>
+                <td>
+                    Prix:
+                </td>
+                <td>
+                    Quandtité:
+                </td>
+                <td>
+                    Resultat
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="t1" placeholder="entrez un article" type="text">
+                    </input>
+                </td>
+                <td>
+                    <input name="t2" id="t2" placeholder="0" >
+                    </input>
+                </td>
+                <td>
+                    <input name="t3" id="t3" placeholder="0" >
+                    </input>
+                </td>
+                <td>
+                    <input name="t4" id="t4" placeholder="0" readonly="" >
+                    </input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="t5"  placeholder="entrez un article" type="text">
+                    </input>
+                </td>
+                <td>
+                    <input name="t6" id="t6" placeholder="0" >
+                    </input>
+                </td>
+                <td>
+                    <input name="t7" id="t7" placeholder="0" >
+                    </input>
+                </td>
+                <td>
+                    <input name="t8" id='t8' placeholder="0" readonly="" >
+                    </input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="t9" placeholder="entrez un article" type="text">
+                    </input>
+                </td>
+                <td>
+                    <input name="t10" id="t10" placeholder="0" >
+                    </input>
+                </td>
+                <td>
+                    <input name="t11" id="t11" placeholder="0" >
+                    </input>
+                </td>
+                <td>
+                    <input name="t12" id="t12" placeholder="0" readonly="" >
+                    </input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    <input type="button" value="Réinitialiser" onclick="history.go(0)" > </input>
+                </td>
+                <td>
+                    <button onclick="Résultat()"> Résultat</button>
+                </td>
+                <td>
+                    <input name="t14" id="t14" placeholder="0" readonly="" >
+                    </input>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

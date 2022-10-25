@@ -1,0 +1,74 @@
+body
+{
+	background-color: black;
+	text-align: center;
+}
+h1
+{
+	color: hotpink;
+	font-family: verdana;
+	font-size: 2em;
+}
+button{
+	border: 2px solid black;
+	border-radius: 26px;
+	text-align: center;
+	padding: 15px 32px;
+	background-color: darkgreen;
+	margin-top: 3px;
+	width: 300px;
+}
+div
+{
+	border: 2px solid green;
+	border-radius: 26px;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 2%;
+	width: 50%;
+
+}
+button:hover{
+	color: darkgreen;
+	background-color: black;
+	border: 2px solid green;
+}
+h2 {
+	color: #79CBB8
+}
+input{
+	border:2px solid #79CBB8;
+	border-radius: 20px;
+	background-color: #500472
+}
+.b1{
+	background-color: #79CBB8
+}
+h3 {
+	color: red;
+	font-family: verdana
+	font-size: 2em;
+}
+.b12{
+	background-color: pink
+}
+.b23{
+	background-color: pink
+}
+.bb{
+	border: 2px solid red;
+	border-radius: 26px;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 2%;
+	width: 50%;
+}
+p {
+	color: yellow
+}
+.d{
+	background-color: white
+}
+.N{
+	background-color: yellow
+}

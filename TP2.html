@@ -1,0 +1,79 @@
+<!--!DOCTYPE html-->
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+                <title>
+                </title>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <script type="text/javascript">
+            function calcul_moyenne()
+	{
+		var note1=prompt("donner la premiére note:");
+		var note2=prompt("donner la deuxiéme note:");
+		var note3=prompt("donner la troisiéme note:");
+		var somme = note1*2 + note2*3 + note3*3; 
+		document.write("voici la somme:     "+somme + "         ");
+		var moyenne=somme/8;
+		document.write("voila la moyenne:"      +moyenne + "        ");
+		if (moyenne>=10)
+	    document.write("vous etes admis");
+	    else
+	     document.write("vous etes redoublant");
+	}
+	function age_test()
+	{
+		var age = prompt("donner votre age");
+		if (age>100 || age<=0) {
+			document.bgColor="red"
+			alert("attention age invalide");
+
+		}
+		else
+		{
+			alert("age valide");
+		    document.bgColor="green"
+		}
+	}
+	function simple_affichage()
+	{
+	var prénom = prompt("donner votre prénom:");
+	var nom = prompt("donner votre nom:");
+	document.write("<div style='border:2px solid blue;background-color:pink; width:30%;hight:30px;margin:auto;text-align:center;padding-top/20px;font-size:2rem;'>");
+	document.write("<p1 style='color:red';> Bonjour </p1>  "+prénom+"      "+nom);
+	document.write("</div>");
+}
+function coleur()
+{
+var coleur = prompt ("choisire votre coleur");
+if (coleur == "rouge" || coleur=="ROUGE") 
+	
+	document.bgColor="red";
+else if (coleur == "vert" || coleur=="VERT")
+	document.bgColor="green";
+else if (coleur == "blue" || coleur== "BLUE")
+	document.bgColor="blue";
+else
+	alert ("coleur invalide");
+ 
+
+}
+        </script>
+      <h1>  4 EXERCICES SIMPLE en JAVASCRIPT</h1>
+        <button onclick="calcul_moyenne()">
+            calculer la moyenne
+        </button>
+        <button onclick="age_test()">
+            tester l'age
+        </button>
+        <button onclick="simple_affichage()">
+            Affichage simple
+        </button>
+        <button onclick="coleur()">
+            coleur
+        </button>
+    </body>
+</html>
