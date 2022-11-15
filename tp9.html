@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<script type="text/javascript">
+                    var nbClic=0; //creation de la variable: nom et valeur initiale
+		function compteClic(){
+		
+			nbClic++; //inctementation de nbClic de 1
+			document.getElementById('texte1').value=nbClic;
+		}
+                </script>
+                
+        
+    </head>
+    <body>
+        <div style="text-align: center;">
+            Cliquer sur le bouton :
+            <input  type="button" value="Cliquer" onClick="compteClic()";>
+                <br>
+                    Vous avez clique
+                    <input type="text" id="texte1" =readonly="true" size="3" type="text" value="0">
+                        fois.
+                    
+                </br>
+            
+        </div>
+    </body>
+</html>

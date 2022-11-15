@@ -1,0 +1,69 @@
+<!--!DOCTYPE html-->
+<html>
+    <head>
+        <title>
+        </title>
+        <script type="text/javascript">
+            function calculer()
+		{
+			var a = document.getElementById("t1").value;
+			var b = document.getElementById("t2").value;
+			var c = Number (a)+ Number (b);
+			document.getElementById("t3").value = c ;
+		}
+		function resultat()
+		{
+		    var d = document.getElementById("t4").value;
+			var e = document.getElementById("t5").value;
+			var f = document.getElementById("t6").value;
+			var j = (d+e+f)/3;
+			     document.getElementById("t7").value = j
+			     
+			     
+		}
+        </script>
+    </head>
+    <body>
+        <fieldset>
+            <legend>
+                Premiére fonction
+            </legend>
+            <input id="t1" name="t1" placeholder="saisir une valeur" type="">
+                <input id="t2" name="t2" placeholder="saisir une valeur" type="">
+                    <input id="t3" name="t3" placeholder="Resultat" readonly="" type="">
+                        <button onclick="calculer();">
+                            calculer
+                        </button>
+                    </input>
+                </input>
+            </input>
+        </fieldset>
+        <fieldset class="b">
+            <legend>
+                Releve de Note
+            </legend>
+            Note1:
+            <input id="t4" name="t4" placeholder="saisir la note" type="text">
+                <button onclick="resultat();">
+                    Résultat
+                </button>
+                votre moyenne :
+                <input id="t7" name="t7" readonly="">
+                    <br>
+                        Note2:
+                        <input id="t5" name="t5" placeholder="saisir la note" type="text">
+                            <br>
+                                Note3:
+                                <input id="t6" name="t6" placeholder="saisir la note" type="text">
+                                    le Resultat:
+                                    <input class="N" name="t8" readonly="">
+                                    </input>
+                                </input>
+                            </br>
+                        </input>
+                    </br>
+                </input>
+            </input>
+        </fieldset>
+    </body>
+</html>
