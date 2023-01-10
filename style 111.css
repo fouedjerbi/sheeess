@@ -1,0 +1,23 @@
+html {
+        margin: 0;
+        padding: 0;
+        background: url(oui.jpeg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+.fix{
+        background-color: darkred;
+}
+
+.zone {
+        background-color: lightgrey;
+}
+   legend{
+        color: red;
+   }
+.ll{
+      color: skyblue;
+}
+.m{
+        color: white;
+}
